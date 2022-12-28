@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+.sectionteam {
+    margin-top: 30px;
+    width: 100%;
+    min-height: 70vh;
+    background-color: #f8f9fa;
+}
+
+.generaldivteamaboutpage {
+    padding-top: 8vh;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.teamtextaboutpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circlecards {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firstcardteam {
+    border: 1px solid black;
+    border: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.firstcardteam img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.firstcardteam h5 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.firstcardteam p {
+    text-align: center;
+}
+
+@media screen and (max-width:775px) {
+
+    .circlecards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstcardteam {
+        width: 40%;
+        padding-top: 30px;
+    }
+    .teamtextaboutpage { 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

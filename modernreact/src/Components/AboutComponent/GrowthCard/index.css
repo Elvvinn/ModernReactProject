@@ -1,0 +1,76 @@
+.growthsectionabout {
+    width: 100%;
+    min-height: 60vh;
+}
+
+.generalgrowthcard {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.growthtext {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.growthtext h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.growthtext h5 {
+    font-size: 1.4rem;
+    line-height: 27px;
+    color: #6C757D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.growthcard {
+    max-width: 50%;
+}
+
+.growthcard img {
+    width: 100%;
+    padding-top: 5vh;
+}
+
+
+@media screen and (max-width:775px) {
+
+
+    .growthsectionabout {
+        margin-top: 60px;
+    }
+
+    .generalgrowthcard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .growthcard {
+        max-width: 80%;
+    }
+
+    .growthcard img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .growthtext h3 {
+        font-size: 1.5rem;
+    }
+
+    .growthtext h5 {
+        text-align: center;
+    }
+}

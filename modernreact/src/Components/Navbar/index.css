@@ -1,0 +1,83 @@
+.homenavbar {
+    width: 100%;
+    min-height: 10vh;
+    background-color: #212529;
+}
+
+.homegeneraldiv {
+    max-width: 80%;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 3vh;
+}
+
+.start {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.start:hover {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.rightsidelist {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.rightsidelist li a {
+    text-decoration: none;
+    color: #FFFFFF8C;
+}
+
+li i {
+    color: #FFFFFF8C;
+}
+
+.fa-bars {
+
+    display: none;
+}
+
+#newlistt {
+    display: none;
+}
+
+.addedclass {
+    display: flex !important;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+@media screen and (max-width:775px) {
+
+
+    .rightsidelist li {
+        display: none;
+    }
+
+    .fa-solid {
+        display: block;
+        color: #FFFFFF8C;
+        font-size: 1.2rem;
+    }
+
+    .hamburger {
+        width: 33px;
+        height: 33px;
+        padding: 7px;
+        border: 1px solid rgb(67, 65, 65);
+        border-radius: 4px;
+
+    }
+}

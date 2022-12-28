@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.blogsection {
+    margin-top: 50px;
+    width: 100%;
+    min-height: 50vh;
+    margin-bottom: 50px;
+}
+
+.blogheader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.blogheader h3 {
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.blogheader p {
+    font-size: 1.3rem;
+    color: #6c757d;
+}
+
+.cardsblog {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.cardhome {
+    position: relative;
+    box-sizing: border-box;
+    width: 30%;
+    height: 60vh;
+    border: 1px solid black;
+    border: none;
+    background-color: rgb(247, 246, 246);
+}
+
+.cardhome img {
+
+    width: 100%;
+    height: 48%;
+}
+
+.textincard {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cardsblog {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .cardhome p {
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.cardhome h4 {
+    padding-left: 15px;
+}
+
+.cardhome h6 {
+    font-size: 1.3rem;
+} */
+
+
+
+@media screen and (max-width:775px) {
+    .cardsblog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .cardhome { 
+        width: 70%;
+    }
+    .cardhome img { 
+        width: 100%;
+    }
+}
